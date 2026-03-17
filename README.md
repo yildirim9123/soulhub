@@ -22,16 +22,6 @@ Each agent directory contains a `SOUL.md` that can be used with Claude Code, Age
 
 ## Quick Start
 
-### Use with AgentHub (Recommended)
-
-SoulHub is included as a git submodule in [AgentHub](https://github.com/yildirim9123/agenthub):
-
-```bash
-git clone https://github.com/yildirim9123/agenthub.git
-cd agenthub
-npm install  # automatically initializes submodules
-```
-
 ### Use Standalone
 
 ```bash
@@ -43,7 +33,7 @@ git clone https://github.com/yildirim9123/soulhub.git
 
 ```bash
 # Copy an agent's SOUL.md to your Claude Code config
-cp soulhub/backend-developer/SOUL.md .claude/agents/backend-developer.md
+cp soulhub/master/backend-developer/SOUL.md .claude/agents/backend-developer.md
 ```
 
 ---
