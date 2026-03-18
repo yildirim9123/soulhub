@@ -16,7 +16,7 @@
 - **Structured workflows** — step-by-step processes and deliverable formats
 - **Inter-agent collaboration** — how each agent communicates with teammates
 
-Each agent directory contains a `SOUL.md` that can be used with Claude Code, AgentHub, or any AI agent framework.
+Each agent directory contains a `SOUL.md` that can be used with Claude Code, VibeHub, or any AI agent framework.
 
 ---
 

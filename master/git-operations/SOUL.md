@@ -86,10 +86,10 @@ When you receive a message with the `[GIT-COMMIT-REQUEST]` prefix, follow this p
 3. If no changes: Log "No changes to commit" and skip
 4. If changes exist:
    a. Save current branch: `git rev-parse --abbrev-ref HEAD`
-   b. Create task branch: `git checkout -b agenthub/task-<taskId>` (or switch if exists)
+   b. Create task branch: `git checkout -b vibehub/task-<taskId>` (or switch if exists)
    c. Stage changes selectively (never stage .env, credentials, secrets)
    d. Commit with a descriptive message based on the task title
-   e. Push: `git push origin agenthub/task-<taskId> --force-with-lease`
+   e. Push: `git push origin vibehub/task-<taskId> --force-with-lease`
    f. Get hash: `git rev-parse HEAD`
    g. Update task with commit hash via API:
       ```

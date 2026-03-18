@@ -126,6 +126,9 @@ NEVER create all tasks flat at the same level. Use `parentTaskId` to build hiera
 
 Rules: 3+ related tasks -> group under a FEATURE or EPIC. Standalone small work -> single TASK is fine. `BUG` entries are standalone issue reports (same rank as TASK), or part of a FEATURE/EPIC when applicable.
 
+### Issue Relationships
+Use `dependencyIds` to link related tasks. A task with unresolved dependencies must not be assigned. BUG'lar keşfedildikleri task'a `dependencyIds` ile bağlanmalı.
+
 ### Assignment Granularity (CRITICAL -- Token Efficiency)
 
 Each agent trigger costs a full process startup (context loading, SOUL.md parsing, API init). Prefer assigning larger work units to minimize trigger count.
