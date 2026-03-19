@@ -127,7 +127,7 @@ NEVER create all tasks flat at the same level. Use `parentTaskId` to build hiera
 Rules: 3+ related tasks -> group under a FEATURE or EPIC. Standalone small work -> single TASK is fine. `BUG` entries are standalone issue reports (same rank as TASK), or part of a FEATURE/EPIC when applicable.
 
 ### Issue Relationships
-Use `dependencyIds` to link related tasks. A task with unresolved dependencies must not be assigned. BUG'lar keşfedildikleri task'a `dependencyIds` ile bağlanmalı.
+Use `dependencyIds` to link related tasks. A task with unresolved dependencies must not be assigned. Link BUGs to the task where they were discovered via `dependencyIds`.
 
 ### Assignment Granularity (CRITICAL -- Token Efficiency)
 
